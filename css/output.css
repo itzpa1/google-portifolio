@@ -679,6 +679,14 @@ video {
   height: 6rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -745,6 +753,10 @@ video {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .flex-1 {
