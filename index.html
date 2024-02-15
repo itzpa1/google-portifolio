@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 
-<body>
+<body class=" border-slate-300 md:flex md:flex-col md:items-center md:scrollbar-thumb-" oncontextmenu="return false">
 
-    <div class="main-container w-full flex flex-col items-center">
+    <div class="main-container md:border-l-2 md:border-r-2 md:w-1/4 flex flex-col items-center">
         <header class="flex flex-col w-full h-auto justify-between items-center">
             <div
                 class="header-top flex w-full h-auto justify-between items-center px-4 pt-5 bg-gradient-to-t from-white to-[#F7C487] ">
@@ -66,7 +66,7 @@
                 <div class="upper-box flex items-center justify-between w-full">
                     <div class="title text-black">
                         <h1 class="text-2xl font-semibold mb-1">Pawan Kumar</h1>
-                        <h4 class="text-xs font-medium">Frontend Developer and Poster Designer</h4>
+                        <h4 class="text-xs font-medium">Frontend Developer and Graphic Designer</h4>
                     </div>
                     <span class="material-symbols-outlined text-slate-500 text-xl">
                         more_vert
@@ -74,18 +74,17 @@
                 </div>
                 <div class="filters py-2 flex flex-wrap">
                     <a href="#overview"
-                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-black border-white ">Overview</a>
+                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Overview</a>
                     <a href="#education"
-                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-black border-white ">Education</a>
+                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Education</a>
                     <a href="#projects"
-                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-black border-white ">Projects</a>
+                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Projects</a>
                     <a href="#skills"
-                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-black border-white ">Skills</a>
+                        class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Skills</a>
                 </div>
             </div>
             <div class="img-container flex py-2 px-4 overflow-y-scroll scrollbar-hide">
                 <img class="w-96 h-auto mr-1 object-center rounded-l-lg" src="assets/overview/1.jpg" alt="img1">
-                <img class="w-96 h-auto mr-1 object-center " src="assets/overview/2.jpg" alt="img2">
                 <img class="w-96 h-auto mr-1 object-center " src="assets/overview/3.jpg" alt="img3">
                 <img class="w-96 h-auto mr-1 object-center rounded-r-lg" src="assets/overview/4.jpg" alt="img4">
             </div>
@@ -104,13 +103,13 @@
                         class="flex-1 basis-auto w-[150px] h-auto bg-blue-50 m-1 rounded-lg overflow-hidden">
 
                         <div class="linkedin">
-                            <img src="assets/overview/2.jpg" alt="social-logo">
+                            <img src="assets/user.gif" alt="social-logo">
                             <div class="social-info p-2">
                                 <div class="social-logo flex items-center ">
                                     <i class='bx bxl-linkedin mr-1 text-xl text-[#0A66C2]'></i>
                                     <p class="username font-medium text-md">itzpa1 - LinkedIn</p>
                                 </div>
-                                <div class="more-details flex text-xs font-medium">
+                                <div class="more-details flex justify-between text-xs font-medium">
                                     <p class="mr-1">Pawan Kumar</p>
                                     <p class="mr-1">500+ Connections</p>
                                     <p class="mr-1">20+ posts</p>
@@ -122,13 +121,13 @@
                         class="flex-1 basis-auto w-[150px] h-auto bg-blue-50 m-1 rounded-lg overflow-hidden">
 
                         <div class="github">
-                            <img src="assets/overview/2.jpg" alt="social-logo">
+                            <img src="assets/user.gif" alt="social-logo">
                             <div class="social-info p-2">
                                 <div class="social-logo flex items-center ">
                                     <i class='bx bxl-github mr-1 text-xl text-black'></i>
                                     <p class="username font-medium text-md">itzpa1 - Github</p>
                                 </div>
-                                <div class="more-details flex text-xs font-medium">
+                                <div class="more-details flex justify-between text-xs font-medium">
                                     <p class="mr-1">Pawan Kumar</p>
                                     <p class="mr-1">2 Stars</p>
                                     <p class="mr-1">20+ Repositories</p>
@@ -140,17 +139,17 @@
                         class="flex-1 basis-auto w-[150px] h-auto bg-blue-50 m-1 rounded-lg overflow-hidden">
 
                         <div class="instagram">
-                            <img src="assets/overview/2.jpg" alt="social-logo">
+                            <img src="assets/user.gif" alt="social-logo">
                             <div class="social-info p-2">
                                 <div class="social-logo flex items-center ">
                                     <i
                                         class='bx bxl-instagram mr-1 text-xl text-gradient-to-br from-amber-300 via-orange-600 to-blue-600'></i>
-                                    <p class="username font-medium text-sm">itz_pa1 - Instagram</p>
+                                    <p class="username font-medium text-md">itz_pa1 - Instagram</p>
                                 </div>
-                                <div class="more-details flex text-xs font-medium">
-                                    <p class="mr-1">पवन Kumar</p>
-                                    <p class="mr-1">945 followers</p>
-                                    <p class="mr-1">4 posts</p>
+                                <div class="more-details flex justify-between text-xs font-medium">
+                                    <p class="mr-1">पवन<br>Kumar</p>
+                                    <p class="mr-1">945<br>followers</p>
+                                    <p class="mr-1">4<br>posts</p>
                                 </div>
                             </div>
                         </div>
@@ -159,13 +158,13 @@
                         class="flex-1 basis-auto w-[150px] h-auto bg-blue-50 m-1 rounded-lg overflow-hidden">
 
                         <div class="youtube">
-                            <img src="assets/overview/2.jpg" alt="social-logo">
+                            <img src="assets/user.gif" alt="social-logo">
                             <div class="social-info p-2">
                                 <div class="social-logo flex items-center ">
                                     <i class='bx bxl-youtube mr-1 text-xl text-red-600'></i>
                                     <p class="username font-medium text-md">itz_pa1 - YouTube</p>
                                 </div>
-                                <div class="more-details flex text-xs font-medium">
+                                <div class="more-details flex justify-between text-xs font-medium">
                                     <p class="mr-1">Itzpa1 Studio</p>
                                     <p class="mr-1">51 subscribers</p>
                                     <p class="mr-1">27 Videos</p>
@@ -183,24 +182,62 @@
         <!-- ----------  OVERVIEW ENDS HERE  ----------- -->
 
 
+        <!-- ----------  EDUCATION STARTS HERE  ----------- -->
+
+        <section class="education w-full border-b-8 border-b-slate-200 py-4 px-4" id="education">
+            <div class="filters py-2 flex flex-wrap">
+                <a href="https://www.google.com/search?q=Education" target="_blank"
+                    class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Education</a>
+                    <a href="https://www.google.com/search?q=Facts" target="_blank"
+                    class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Facts</a>
+                    <a href="https://www.google.com/search?q=Training" target="_blank"
+                    class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Training</a>
+                <a href="https://www.google.com/search?q=mind" target="_blank"
+                    class="bg-blue-50 mr-1 rounded-full px-4 py-1.5 text-sm font-medium border-2 hover:border-blue-100 border-white ">Mind</a>
+            </div>
+            <h2 class="text-xl font-semibold mb-4">Education</h2>
+            
+            <div class="education-box flex flex-col items-center w-full">
+                <div class="edu-box flex py-2 border-t-[1px] border-slate-200 w-full">
+                    <img class="rounded-full h-12 w-12 object-center border-1 border-blue-100" src="assets/eduation/dav-alok.jpg" alt="edu-img">
+                    <div class="edu-info ml-4">
+                        <h2 class="text-sm font-semibold">DAV ALOK PUBLIC SCHOOL, INTERMEDIATE 2021-23</h2>
+                        <p class="text-sm font-medium">Science(Maths) | Jharkhand</p>
+                    </div>
+                </div>
+                <div class="edu-box flex py-2 border-t-[1px] border-b-[1px] border-slate-200 w-full">
+                    <img class="rounded-full h-12 w-12 object-center border-1 border-blue-100" src="assets/eduation/arsd.jpg" alt="edu-img">
+                    <div class="edu-info ml-4">
+                        <h2 class="text-sm font-semibold">UNIVERSITY OF DELHI, GRADUATION 2023-26/27</h2>
+                        <p class="text-sm font-medium">BSc Mathematics Hons | New Delhi, Delhi</p>
+                    </div>
+                </div>
+                <h2 class="pt-4 text-sm font-medium hover:text-blue-400">View More</h2>
+            </div>
+            
+        </section>
+
+        <!-- ----------  EDUCATION ENDS HERE  ----------- -->
+
+
         <!-- ----------  PROJECTS STARTS HERE  ----------- -->
 
         <section class="projects flex w-full flex-col py-4 border-b-8 border-b-slate-200" id="projects">
             <h2 class="text-xl font-semibold ml-4 mb-4">Projects</h2>
             <div class="projetcs-container w-full overflow-y-scroll scrollbar-hide flex px-4 h-auto">
 
-                <div class="projects-box flex flex-col w-[160px] h-[300px] mr-2 shrink-0">
-                    <img src="assets/overview/3.jpg" alt="projects-img"
+                <div class="projects-box flex flex-col w-[160px] duration-300 hover:w-[360px] h-[300px] mr-2 shrink-0">
+                    <img src="assets/projects/projects2.png" alt="projects-img"
                         class="thumbnail w-full rounded-lg h-3/4 object-cover">
                     <div class="projects-info text-sm flex flex-col items-start w-full py-2 ">
-                        <p class="project-title py-1 font-medium">Projects 1 - 2023</p>
+                        <p class="project-title py-1 font-medium">School MS - 2023</p>
                         <div class="open-mode flex w-full items-center justify-between">
-                            <a href="#"
+                            <a href="https://github.com/itzpa1/Projects/tree/main/STUDENT%20MANAGEMENT%20SYSTEM%202.0" target="_blank"
                                 class="code flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     code
                                 </span></a>
-                            <a href="#"
+                            <a href="https://github.com/itzpa1/Projects/blob/main/STUDENT%20MANAGEMENT%20SYSTEM%202.0/Student-Management-System%202.0.pdf" target="_blank"
                                 class="view flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     visibility
@@ -208,18 +245,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-box flex flex-col w-[160px] h-[300px] mr-2 shrink-0">
-                    <img src="assets/overview/3.jpg" alt="projects-img"
+                <div class="projects-box flex flex-col w-[160px] duration-300 hover:w-[360px] h-[300px] mr-2 shrink-0">
+                    <img src="assets/projects/projects3.png" alt="projects-img"
                         class="thumbnail w-full rounded-lg h-3/4 object-cover">
                     <div class="projects-info text-sm flex flex-col items-start w-full py-2 ">
-                        <p class="project-title py-1 font-medium">Projects 1 - 2023</p>
+                        <p class="project-title py-1 font-medium">GitHub User - 2023</p>
                         <div class="open-mode flex w-full items-center justify-between">
-                            <a href="#"
+                            <a href="https://github.com/itzpa1/github-user" target="_blank"
                                 class="code flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     code
                                 </span></a>
-                            <a href="#"
+                            <a href="https://itzpa1.github.io/github-user/" target="_blank"
                                 class="view flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     visibility
@@ -227,18 +264,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-box flex flex-col w-[160px] h-[300px] mr-2 shrink-0">
-                    <img src="assets/overview/3.jpg" alt="projects-img"
+                <div class="projects-box flex flex-col w-[160px] duration-300 hover:w-[360px] h-[300px] mr-2 shrink-0">
+                    <img src="assets/projects/projects1.gif" alt="projects-img"
                         class="thumbnail w-full rounded-lg h-3/4 object-cover">
                     <div class="projects-info text-sm flex flex-col items-start w-full py-2 ">
-                        <p class="project-title py-1 font-medium">Projects 1 - 2023</p>
+                        <p class="project-title py-1 font-medium">Portifolio-1 - 2022</p>
                         <div class="open-mode flex w-full items-center justify-between">
-                            <a href="#"
+                            <a href="https://github.com/itzpa1/itzpa1-Portifolio" target="_blank"
                                 class="code flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     code
                                 </span></a>
-                            <a href="#"
+                            <a href="https://itzpa1.github.io/itzpa1-Portifolio/" target="_blank"
                                 class="view flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     visibility
@@ -246,18 +283,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="projects-box flex flex-col w-[160px] h-[300px] mr-2 shrink-0">
-                    <img src="assets/overview/3.jpg" alt="projects-img"
+                <div class="projects-box flex flex-col w-[160px] duration-300 hover:w-[360px] h-[300px] mr-2 shrink-0">
+                    <img src="assets/projects/project4.png" alt="projects-img"
                         class="thumbnail w-full rounded-lg h-3/4 object-cover">
                     <div class="projects-info text-sm flex flex-col items-start w-full py-2 ">
-                        <p class="project-title py-1 font-medium">Projects 1 - 2023</p>
+                        <p class="project-title py-1 font-medium">Encrypt Text😊 - 2023</p>
                         <div class="open-mode flex w-full items-center justify-between">
-                            <a href="#"
+                            <a href="https://github.com/itzpa1/text-to-emojis" target="_blank"
                                 class="code flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     code
                                 </span></a>
-                            <a href="#"
+                            <a href="https://itzpa1.github.io/text-to-emojis/" target="_blank"
+                                class="view flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
+                                    class="material-symbols-outlined">
+                                    visibility
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-box flex flex-col w-[160px] duration-300 hover:w-[360px] h-[300px] mr-2 shrink-0">
+                    <img src="assets/projects/projects5.png" alt="projects-img"
+                        class="thumbnail w-full rounded-lg h-3/4 object-cover">
+                    <div class="projects-info text-sm flex flex-col items-start w-full py-2 ">
+                        <p class="project-title py-1 font-medium">Two Good Clone - 2023</p>
+                        <div class="open-mode flex w-full items-center justify-between">
+                            <a href="https://github.com/itzpa1/TwoGood-Clone" target="_blank"
+                                class="code flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
+                                    class="material-symbols-outlined">
+                                    code
+                                </span></a>
+                            <a href="https://itzpa1.github.io/TwoGood-Clone/" target="_blank"
                                 class="view flex items-center py-1 px-4 bg-blue-50 rounded-lg cursor-pointer"><span
                                     class="material-symbols-outlined">
                                     visibility
@@ -271,36 +327,113 @@
         <!-- ----------  PROJECTS ENDS HERE  ----------- -->
 
 
-        <!-- ----------  PROJECTS ENDS HERE  ----------- -->
+        <!-- ----------  SKILLS STARTS HERE  ----------- -->
+
+        <section class="skills w-full border-b-8 border-b-slate-200 py-4 px-4" id="skills">
+            <h2 class="text-xl font-semibold ml-4 mb-4">Skills</h2>
+            <div class="skills-box w-full flex flex-wrap gap-2 justify-center">
+                <div class="box w-28 flex flex-col items-center justify-between shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="skill">
+                    <p class="text-md font-semibold">HTML5</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 justify-between bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="skill">
+                    <p class="text-md font-semibold">CSS3</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center justify-between shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="skill">
+                    <p class="text-md font-semibold">JS</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center justify-between shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="skill">
+                    <p class="text-md font-semibold">ReactJS</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center justify-between shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png" alt="skill">
+                    <p class="text-md font-semibold">TailwindCSS</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="skill">
+                    <p class="text-md font-semibold">Python</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="skill" class="invert">
+                    <p class="text-md font-semibold">GitHub</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/ios-filled/50/django.png" alt="skill">
+                    <p class="text-md font-semibold">Django</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/fluency/48/canva.png" alt="skill">
+                    <p class="text-md font-semibold">Canva</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" alt="skill">
+                    <p class="text-md font-semibold">Photoshop</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/ios/50/power-bi.png" alt="skill">
+                    <p class="text-md font-semibold">PowerBI</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/color/48/ms-word.png" alt="skill">
+                    <p class="text-md font-semibold">MS Word</p>
+                </div>
+                <div class="box w-28 flex flex-col items-center shrink-0 bg-blue-50 rounded-lg p-2 ">
+                    <img src="https://img.icons8.com/officel/48/ms-excel.png" alt="skill">
+                    <p class="text-md font-semibold">Excel</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ----------  SKILLS ENDS HERE  ----------- -->
+
+
+        <!-- ----------  CONTATCS STARTS HERE  ----------- -->
 
         <section class="contact w-full border-b-8 border-b-slate-200 py-4 px-4" id="contacts">
             <h2 class="text-xl font-semibold mb-4">Contact Pawan!</h2>
             <div class="contact-box w-full ">
                 <form action="#">
-                    <div class="name flex items-center bg-blue-50 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
+                    <div
+                        class="name flex items-center bg-blue-50 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
                         <span class="material-symbols-outlined">
                             person
-                            </span>
-                        <input type="text" name="name" id="name" placeholder="Name" class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black">
+                        </span>
+                        <input type="text" name="name" id="name" placeholder="Name"
+                            class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black">
                     </div>
-                    <div class="email flex items-center bg-blue-50 my-2 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
+                    <div
+                        class="email flex items-center bg-blue-50 my-2 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
                         <span class="material-symbols-outlined">
                             mail
-                            </span>
-                        <input type="email" name="email" id="email" placeholder="Email" class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black">
+                        </span>
+                        <input type="email" name="email" id="email" placeholder="Email"
+                            class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black">
                     </div>
-                    <div class="email flex items-center bg-blue-50 my-2 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
+                    <div
+                        class="email flex items-center bg-blue-50 my-2 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
                         <span class="material-symbols-outlined">
-                            mail
-                            </span>
-                        <input type="text" name="phone" id="phone" placeholder="Phone" class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black">
+                            dialpad
+                        </span>
+                        <input type="text" name="phone" id="phone" placeholder="Phone"
+                            class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black">
                     </div>
-                    <div class="message flex items-start bg-blue-50 my-2 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
+                    <div
+                        class="message flex items-start bg-blue-50 my-2 py-2 px-2 text-md font-medium border-[1px] border-slate-400 rounded-lg">
                         <span class="material-symbols-outlined">
                             send
-                            </span>
-                        <textarea name="message" id="message" cols="40" rows="5" placeholder="Message" class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black"></textarea>
+                        </span>
+                        <textarea name="message" id="message" cols="40" rows="5" placeholder="Message"
+                            class="ml-2 outline-none border-none bg-transparent placeholder:text-md placeholder:font-normal placeholder:text-black"></textarea>
                     </div>
+                    <button type="submit"
+                        class="submit flex items-center text-md font-medium w-full justify-center rounded-full bg-blue-50 p-2">Send
+                        <span class="material-symbols-outlined ml-2 font-normal">
+                            send
+                        </span></button>
                 </form>
             </div>
         </section>
@@ -319,7 +452,7 @@
                         me over socials. <br><br> Keep Rising 🚀. Connect with me over live chat!</h3>
                 </div>
                 <div class="quick-links py-4">
-                    <h2 class="text-xl font-medium mb-2 flex items-center  text-md font-medium ">Quick Links</h2>
+                    <h2 class="text-xl font-medium mb-2 flex items-center">Quick Links</h2>
                     <div class="quick-home flex items-center  text-md font-medium ">
                         <span class="material-symbols-outlined">
                             expand_circle_right
@@ -347,6 +480,11 @@
                     </div>
                 </div>
             </div>
+            <div class="watermark px-4 flex flex-col w-full items-center text-sm font-semibold ">
+                <hr class="w-3/4 h-[1px] mx-auto my-2 bg-slate-400 border-0 rounded md:my-10">
+                <h2>Designed With <span class="heart-pulse" id="pulse">❤️</span> By <a
+                        href="https://linkedin.com/in/itzpa1/" target="_blank" class="text-blue-500">Pawan Kumar</a> </h2>
+            </div>
         </section>
 
         <!-- ----------  QUICK DETAILS ENDS HERE  ----------- -->
@@ -355,33 +493,51 @@
 
         <!-- ----------  FOOTER STARTS HERE  ----------- -->
 
-        <section class="footer w-full flex flex-col py-4 bg-blue-50">
-            <div class="icons flex items-center justify-evenly w-full text-sm font-bold">
+        <section class="footer w-full flex flex-col py-4">
+
+            <div class="ask px-4 pb-4 w-full">
+                <div class="ask-1 flex items-center justify-between py-2">
+                    <h2 class="text-xl font-medium mb-2 flex items-center">People also ask</h2>
+                    <span class="material-symbols-outlined text-slate-400">
+                        more_vert
+                        </span>
+                </div>
+                <div class="query">
+                        <div class="edu-info py-4 border-t-[1px] border-slate-400">
+                            <h2 class="text-md font-semibold">Who is Pawan Kumar DU?</h2>
+                        </div>
+                        <div class="edu-info py-4 border-t-[1px] border-b-[1px] border-slate-400">
+                            <h2 class="text-md font-semibold">Who is the father of Pawan Kumar?</h2>
+                        </div>
+                        <a href="#contacts" class="text-xs font-medium text-slate-600">Feedback</a>
+                </div>
+            </div>
+            
+            <div class="icons flex items-center justify-evenly w-full text-sm bg-blue-50 pt-2">
                 <div class="fav-btn flex flex-col items-center hover:text-blue-400 cursor-pointer">
                     <span class="material-symbols-outlined ">
                         ios_share
                     </span>
-                    <h2 class="p-1 ">Share</h2>
+                    <h2 class="p-1 font-medium">Share</h2>
 
                 </div>
                 <div class="se-btn flex flex-col items-center hover:text-blue-400 cursor-pointer">
                     <span class="material-symbols-outlined 0">
                         search
                     </span>
-                    <h2 class="p-1 ">Search</h2>
+                    <h2 class="p-1 font-medium">Search</h2>
                 </div>
                 <div class="boo-btn flex flex-col items-center hover:text-blue-400 cursor-pointer">
                     <span class="material-symbols-outlined ">
                         bookmarks
                     </span>
-                    <h2 class="p-1 ">Saved</h2>
+                    <h2 class="p-1 font-medium">Saved</h2>
                 </div>
             </div>
-            <div class="watermark px-4 flex flex-col w-full items-center text-sm font-semibold ">
-                <hr class="w-3/4 h-[1px] mx-auto my-2 bg-slate-400 border-0 rounded md:my-10">
-                <h2>Designed With <span class="heart-pulse" id="pulse">❤️</span> By <a
-                        href="https://linkedin.com/in/itzpa1/" class="text-blue-500">Pawan Kumar</a> </h2>
-            </div>
+                <a href="#" title="Top" class="fixed bottom-20 right-4 w-16 h-16 flex flex-col items-center justify-center bg-blue-50 rounded-full font-bold shadow-sm"><span class="material-symbols-outlined text-3xl">
+                    expand_less
+                    </span></a>
+            
         </section>
         <!-- ----------  FOOTER ENDS HERE  ----------- -->
 
@@ -389,7 +545,25 @@
     </div>
 
 
-
+<script>
+    document.onkeydown = (e) => {
+    if (e.key == 123) {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key == 'U') {
+        e.preventDefault();
+    }
+};
+</script>
 </body>
 
 </html>
